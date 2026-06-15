@@ -1,0 +1,129 @@
+@import url("./mobile.css");
+@import url("./tablet.css");
+
+.hero .nav-bar {
+    background-color: #498a6a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.2rem 0;
+}
+body {
+    font-family: "inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hero .nav {
+    display: flex !important;
+}
+.hero .nav .logo img {
+    width: 100px;
+}
+
+.hero .nav-bar .nav-links {
+    display: flex;
+    gap: 1 rem;
+}
+
+.hero .nav-bar .nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero .nav-bar .btns {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    border: 2px solid #d4bfe4;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.hero .nav-bar .btns img {
+    width: 20px;
+}
+
+.hero header {
+    background-color: #074648;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 55%,
+    90% 68%,
+    75% 80%,
+    60% 88%,
+    45% 93%,
+    25% 96%,
+    10% 95%,
+    0% 92%
+);
+}
+
+.hero header .texts {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.hero header .texts .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hero header .texts .text #h1 {
+     font-family: "Train one";  
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.hero header .texts .text #h2 {
+    font-family: "inter";
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.hero header .texts .text #p {
+    font-family: "inter";
+    font-weight: 100;
+}
+
+.hero header .texts .btns {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.hero header .texts .btns button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.hero header .texts .btns .icons img {
+    width: 8px;
+    height: ;
+}
+.hero header .texts .btns .icons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.hero header .images img {
+    width: 450px;
+}
+
+.hero header .images .img img {
+    width: 380px;
+}
